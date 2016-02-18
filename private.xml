@@ -1,0 +1,247 @@
+ <?xml version="1.0"?>
+
+<!--
+Library/Application\ Support/Karabiner/private.xml
+-->
+ <root>
+   <item>
+     <name>mode_switch</name>
+     <identifier>private.altGr</identifier>
+
+     <!-- <autogen> -->
+     <!--   __KeyToKey__ -->
+     <!--   KeyCode::JIS_KANA, -->
+     <!--   KeyCode::CONTROL_L, ModifierFlag::OPTION_L -->
+     <!-- </autogen> -->
+
+     <autogen>
+       __KeyToKey__
+       KeyCode::JIS_KANA,
+       KeyCode::SHIFT_R
+     </autogen>
+
+     <autogen>
+       __KeyToKey__
+       KeyCode::JIS_EISUU,
+       KeyCode::SHIFT_L
+     </autogen>   
+
+   </item> 
+
+   <item>
+     <name>Changens SHFITR set on dvorak</name>
+     <identifier>private.num2mark</identifier>
+     <!-- <appendix>Changes a + Right Shift to 1</appendix> -->
+     <autogen>
+       __KeyToKey__
+       KeyCode::A, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::1
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::S, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::2
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::D, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::3
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::F, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::4
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::G, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::5
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::H, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::6
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::J, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::7
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::K, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::8
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::9
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::SEMICOLON, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::0
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::A, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::5, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::S, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BRACKET_LEFT
+     </autogen>
+     
+     <autogen>
+       __KeyToKey__
+       KeyCode::D, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::MINUS, ModifierFlag::SHIFT_L
+     </autogen>
+
+     <!-- <autogen> -->
+     <!--   __KeyToKey__ -->
+     <!--   KeyCode::3, ModifierFlag::SHIFT_L, ModifierFlag::NONE, -->
+     <!--   KeyCode::MINUS, ModifierFlag::SHIFT_L -->
+     <!-- </autogen> -->
+
+     <autogen>
+       __KeyToKey__
+       KeyCode::F, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::9, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::G, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::MINUS
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::H, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::EQUAL
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::J, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::0, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::K, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::EQUAL, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::L, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::SEMICOLON, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BRACKET_RIGHT
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::W, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::1, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::E, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::R, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::3, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::T, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::Y, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::3, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::U, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BACKSLASH, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::I, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::8, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::O, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::7, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::P, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::X, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::4, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::C, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::6, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::V, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::4, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::B, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::4, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::N, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::2, ModifierFlag::SHIFT_L
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::M, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::BACKQUOTE
+     </autogen>
+     <autogen>
+       __KeyToKey__
+       KeyCode::COMMA, ModifierFlag::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+       KeyCode::6, ModifierFlag::SHIFT_L
+     </autogen>
+
+
+
+     
+     
+     
+     
+
+     
+     
+     <!-- <autogen> -->
+      <!--   __KeyToKey__ -->
+     <!--   KeyCode::SHIFT_L, ModifierFlag::SHIFT_R | ModifierFlag::NONE, -->
+     <!--   KeyCode::FN -->
+     <!-- </autogen> -->
+     <!-- <autogen> -->
+     <!--   __KeyToKey__ -->
+     <!--   KeyCode::1, ModifierFlag::FN, -->
+     <!--   KeyCode::7 -->
+     <!-- </autogen> -->
+      
+   </item> 
+
+
+ </root>
